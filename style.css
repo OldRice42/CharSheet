@@ -1,37 +1,115 @@
-h1 {
-	font-size: 20;
-	font-weight: bold;
-	font-style: normal;
-	font-family: sans-serif;
-	color: white;
+body, h1 {
+	margin: 10;
 }
 
-h2 {
-	font-size: 14;
-	font-weight: bold;
-	font-style: normal;
-	font-family: verdana;
-	color: white;
-}
-
-h3 {
-	font-size: 12;
-	font-weight: normal;
-	font-style: italic;
-	font-family: verdana;
-	color: white;
-}
-
-ul {
-	color: white;
-	font-family: veranda;
-}
-
-div {
-	font-family: veranda;
+header {
+  height: 25vh;
+  background-color: #eee;
+  background-image: url(https://images.pexels.com/photos/2859169/pexels-photo-2859169.jpeg?auto=compress&cs=tinysrgb&h=650&w=940);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 body {
-	background-color: black;
-	font-family: veranda;
+  background-color: black;
+  font-family: veranda;
+  /*set background to black gradient, perhaps put in background image later*/
+  background-color: rgba(0, 0, 0 , .75);
+}
+
+h1 {
+  font-size: 55px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: sans-serif;
+  color: #fff2e6;
+  padding-top: 50px;
+  text-shadow: 3px 2px #000;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+  font-family: Verdana;
+  color: white;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-family: Verdana;
+  color: #ffa34d;
+}
+
+p {
+  color: white;
+  font-family: Veranda, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .15);
+}
+
+ul {
+  color: white;
+  font-family: veranda, sans-serif;
+}
+
+.charsheethead {
+  /*banner div sectin*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .55);
+  font-family: veranda;
+}
+
+div {
+  color: rgb(42, 70, 12);
+}
+
+.dnd {
+  /*Dungeons and Dragons div section*/
+  width: 50%;
+  height: 50%;
+  background-color: rgba(153, 0, 0, .15);
+}
+
+.motw {
+  /*Monster of the Week div section*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(38, 114, 76, .15);
+}
+
+.pathfinder {
+  /*Pathfinder div section*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(114, 76, 38, .25);
+}
+
+.pathfindertwo {
+  /*Pathfinder 2.0 div section*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(114, 114, 38, .25);
+}
+
+.starfinder {
+  /*Starfinder div section*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(38, 76, 114, .25);
+}
+
+.shadowrun {
+  /*Shadowrun div section*/
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, .05);
 }
