@@ -1,5 +1,9 @@
 body, h1, h2, h3, h4, h5, h6, p, a {
 	margin: 10;
+  font-family: Veranda, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
 }
 
 header {
@@ -16,7 +20,7 @@ body {
   background-color: black;
   font-family: veranda;
   /*set background to black gradient, perhaps put in background image later*/
-  background-color: rgba(0, 0, 0 , .75);
+  background-color: rgba(0, 0, 0 , .85);
 }
 
 h1 {
@@ -45,7 +49,7 @@ h3 {
   color: #ffa34d;
 }
 
-p {
+h4 {
   color: white;
   font-family: Veranda, sans-serif;
   font-weight: normal;
@@ -68,9 +72,11 @@ ul {
   font-family: veranda;
 }
 
+/*
 div {
   color: rgb(42, 70, 12);
 }
+*/
 
 .dnd {
   /*Dungeons and Dragons div section*/
@@ -116,4 +122,5 @@ div {
 
 a {
   color: white;
+  font-family: Veranda, sans-serif;
 }
