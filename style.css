@@ -87,36 +87,36 @@ div {
 
 .motw {
   /*Monster of the Week div section*/
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background-color: rgba(38, 114, 76, .15);
 }
 
 .pathfinder {
   /*Pathfinder div section*/
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background-color: rgba(114, 76, 38, .25);
 }
 
 .pathfindertwo {
   /*Pathfinder 2.0 div section*/
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background-color: rgba(114, 114, 38, .25);
 }
 
 .starfinder {
   /*Starfinder div section*/
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background-color: rgba(38, 76, 114, .25);
 }
 
 .shadowrun {
   /*Shadowrun div section*/
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   background-color: rgba(255, 255, 255, .05);
 }
 
