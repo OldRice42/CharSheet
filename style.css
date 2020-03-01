@@ -72,11 +72,13 @@ ul {
   font-family: veranda;
 }
 
-/*
+
 div {
-  color: rgb(42, 70, 12);
+  color: white;
+  font-family: veranda, sans-serif;
+  font-size: 16px;
 }
-*/
+
 
 .dnd {
   /*Dungeons and Dragons div section*/
